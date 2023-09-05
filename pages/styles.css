@@ -19,12 +19,12 @@ a {
 }
 
 hr {
-  border: 1px solid #ddd;
+  border: 1px solid #c29494;
 }
 
 iframe {
-  background: #ccc;
-  border: 1px solid #ccc;
+  background: #a97171;
+  border: 1px solid #c72f2f;
   height: 10rem;
   width: 100%;
   border-radius: 0.5rem;

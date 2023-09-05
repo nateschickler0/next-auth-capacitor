@@ -16,7 +16,7 @@ const nextConfig = {
           { key: "Access-Control-Allow-Credentials", value: "true" },
           {
             key: "Access-Control-Allow-Origin",
-            value: "https://mob.next-auth-capacitor-test.vercel.app",
+            value: "https://mob.next-auth-capacitor-test-git-main-culture-software-inc.vercel.app",
           },
           {
             key: "Access-Control-Allow-Methods",

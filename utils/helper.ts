@@ -1,6 +1,7 @@
 import appConfig from "../app.config";
 
 export const loginWithGithub = async (callback: () => void) => {
+  console.log(appConfig.apiHost);
   /**
    * Fetches the CSRF token, needed for all requests
    * Bear in mind we need to set credentials to include
@@ -14,6 +15,7 @@ export const loginWithGithub = async (callback: () => void) => {
   ).then((res) => {
     return res.json();
   });
+  console.log(csrfToken);
 
   /**
    * Generate an oAuth URL for the Twitter provider
@@ -35,6 +37,7 @@ export const loginWithGithub = async (callback: () => void) => {
     }
   ).then((res) => res.json());
 
+  console.log(url);
   /**
    * We are awaiting the import of the In App Browser as simply importing or requring it throws an error
    */

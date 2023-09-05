@@ -7,7 +7,7 @@ const config: CapacitorConfig = {
   webDir: "out",
   bundledWebRuntime: false,
   server: {
-    hostname: `mob.next-auth-capacitor-test.vercel.app`, // We need to change hostname to subdomain of our domain the API is hosted on
+    hostname: `mob.next-auth-capacitor-test-git-main-culture-software-inc.vercel.app`, // We need to change hostname to subdomain of our domain the API is hosted on
     androidScheme: "https", // HTTPS should be set preferably
   },
 };

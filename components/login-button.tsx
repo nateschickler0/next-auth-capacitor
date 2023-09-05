@@ -11,7 +11,10 @@ export default function LoginButton() {
   return (
     <button
       className={styles.buttonPrimary}
-      onClick={() => loginWithGithub(callback)}
+      onClick={() => {
+        console.log("loginWithGithub");
+        loginWithGithub(callback);
+      }}
     >
       Login with GitHub
     </button>
