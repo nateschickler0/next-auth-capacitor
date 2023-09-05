@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2247faff-40ef-460b-9521-bb6f10b62258" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/capacitor.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/capacitor.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/login-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/login-button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/auth/[...nextauth].ts" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/auth/[...nextauth].ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/utils/helper.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693896247280</updated>
-      <workItem from="1693896248361" duration="2195000" />
+      <workItem from="1693896248361" duration="2434000" />
     </task>
     <servers />
   </component>
